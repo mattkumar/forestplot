@@ -91,8 +91,8 @@ col2 <- ggplot(df2) +
         xlim(0,0.02) +
         xlab(NULL)  +
         ylab(NULL)  +
-        ggtitle(label="\nN") +
-        theme(plot.title = element_text(size =15, face = "bold", hjust = 0.05, family="rale"))
+        ggtitle(label="\nNo. of Patients") +
+        theme(plot.title = element_text(size =15, face = "bold", hjust = 0.001, family="rale"))
 
 #Column 4 - the OR/CI Summary column
 col4  <- ggplot(df2) +
